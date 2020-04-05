@@ -1,0 +1,2 @@
+# observer
+sample directdemocracy observer
