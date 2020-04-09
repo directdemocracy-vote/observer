@@ -35,7 +35,7 @@
       <div class="form-group">
         <div class="container">
           <h3>Search referendum database</h3>
-          <div class="row">
+          <div class="row align-items-end">
             <div class="col-md-4">
               <label for="referumdum-title">Referendum title:</label>
               <input type="text" class="form-control" id="referendum-title" placeholder="Leave empty to search all">
@@ -45,8 +45,7 @@
               <input type="text" class="form-control" id="referendum-area" placeholder="Leave empty to search all">
             </div>
             <div class="col-md-2">
-              <label>&nbsp;</label>
-              <button class="btn btn-success align-bottom" role="button" onclick="search()">Search</button>
+              <button style="margin-top:20px" class="btn btn-success" role="button" onclick="search()">Search</button>
             </div>
           </div>
         </div>
