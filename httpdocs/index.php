@@ -44,7 +44,7 @@
               <label for="referendum-area">Referendum Area:</label>
               <input type="text" class="form-control" id="referendum-area" placeholder="Leave empty to search all">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 align-bottom">
               <button class="btn btn-success" role="button" onclick="search()">Search</button>
             </div>
           </div>
