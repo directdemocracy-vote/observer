@@ -47,6 +47,13 @@
           </div>
         </div>
       </div>
+      <div class="form-group">
+        <div class="container">
+          <div style="text-align:center">
+            <button class="btn btn-success" role="button" onclick="search()">Search</button>
+          </div>
+        </div>
+      </div>
     </main>
     <div>
       <hr>
