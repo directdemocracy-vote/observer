@@ -17,7 +17,8 @@
     <main role='main'>
       <div class="jumbotron directdemocracy-title">
         <div class="container">
-          <h1>Referendum results
+          <h1>Referendum results</h1>
+          <br>
         </div>
       </div>
       <div class="form-group">
