@@ -34,7 +34,7 @@
       </div>
       <div class="form-group">
         <div class="container">
-          <h3>Search referendum database</h3>
+          <h3>Search referendum</h3>
           <div class="row align-items-end">
             <div class="col-md-4">
               <label for="referumdum-title">Referendum title:</label>
