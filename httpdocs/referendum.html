@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://directdemocracy.vote/js/crypto-js.js"></script>
+    <script src="js/referendum.js"></script>
     <title>observer.directdemocracy.vote</title>
   </head>
   <body>
@@ -17,14 +18,18 @@
     <main role='main'>
       <div class="jumbotron directdemocracy-title">
         <div class="container">
-          <h1>Referendum results</h1>
-          <br>
+          <div class="row" style="margin-top:30px;margin-bottom:30px">
+            <div class="col-sd-1" style="margin-right:20px;margin-top:10px"><img class="directdemocracy-title-logo" src="//directdemocracy.vote/images/directdemocracy-title.png"></div>
+            <div class="col-sd-11">
+              <h1><b>direct</b>democracy</h1>
+              <div style="font-size:150%">referendum results</div>
+            </div>
+          </div>
         </div>
+        <br>
       </div>
       <div class="form-group">
-        <div class="container">
-          <h2>Title</h2>
-        </div>
+        <div id="content" class="container"></div>
       </div>
     </main>
     <div>
