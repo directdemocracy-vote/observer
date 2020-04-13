@@ -90,7 +90,8 @@ window.onload = function() {
           '<div><small><b>Deadline:</b> ' + unix_time_to_text(referendum.deadline / 1000) +
           ' &mdash; <b>Area:</b> <a target="_blank" href="' + area_url + '">' + area_name +
           '</a> (' + area_type + ')' + '</small></div><br><div><p>' + referendum.description + '</p></div><div><p><b>' +
-          referendum.question + '</b><p></div>' + answers_table;
+          referendum.question + '</b><p></div>' + answers_table + '<div>referendum=' +
+          encodeURIComponent(referendum.key) + '</div>';
       }
     }
   };
